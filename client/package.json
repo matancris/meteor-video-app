@@ -1,0 +1,23 @@
+{
+  "name": "meteor-video-streaming",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.5",
+    "@meteor/babel-runtime-corejs3": "^3.24.0",
+    "meteor-node-stubs": "^1.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "jwplayer": "^1.0.3"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    }
+  }
+} 
